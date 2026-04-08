@@ -116,14 +116,14 @@ Gráfico de Rastreabilidade
 
 graph TD
 
-    NS001['NS-001: Necessidade Stakeholder] --> RF001['RF-001: Criação Tarefas']
+    NS001['NS-001: Necessidade Steakholder] --> RF001['RF-001: Criação Tarefas']
     RF001 --> TC001['TC-001: Teste Criação]
 
     NS002['NS-002: Organização'] --> RF002['RF-002: Projetos']
     RF002 --> TC002['TC-002: Teste Projetos']
 
     NS001['NS-001: necessidades steakholder'] --> RF001 ['RF-003: tarefa concluida'] 
-    RF003 --> TC003 ['TC-003: teste de terefa']
+    RF003 --> TC003 ['TC-003: teste de terafa']
 
 
 ```
