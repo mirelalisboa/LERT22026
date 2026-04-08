@@ -122,9 +122,9 @@ graph TD
     NS002['NS-002: Organização'] --> RF002['RF-002: Projetos']
     RF002 --> TC002['TC-002: Teste Projetos']
 
-    NS001['NS-001: necessidades steakeholder'] --> RF001 ['RF-003: tarefa conluida'] 
+    NS001['NS-001: necessidades steakholder'] --> RF001 ['RF-003: tarefa concluida'] 
     RF003 --> TC003 ['TC-003: teste de terefa']
-    
+
 
 ```
 
