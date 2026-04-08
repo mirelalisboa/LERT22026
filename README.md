@@ -49,7 +49,6 @@ O SGT será uma aplicação web responsiva com sincronização em nuvem
 - [ ] Confirmação Visual após Criação
 - [ ] Validação de dados da tarefas (não permitir datas vazias)
 
----
 
 #### RF-002: Organização por Projetos
 
@@ -66,13 +65,26 @@ O SGT será uma aplicação web responsiva com sincronização em nuvem
 
 ---
 
+### RF-003: Marcação de Tarefas como Concluída
+
+**Descrição**: O sistema deve permitir a marcação de tarefa como concluída
+**Prioridade**: Média
+**Versão**: 1.0
+**Data** 2026-04-08
+**Rastreabilidade**: Derivado de NS-001
+**Critérios de Aceitação**:
+
+- [ ] Usuário pode marcar tarefa como concluída
+- [ ] Visualização filtrada por concluída
+
+---
+
 ### 3.2 Requsitos Não-Funcionais
 
 #### RNF-001: Desempenho
 
-**Descrição**: O sistema deve carregar a lista de tarefas em menos de 1 segundopara até 100 tarefas.
-**Categoria**: Desempenho
-**Prioridade**: Alta
+**Descrição**: O sistema deve permitir a marcação de tarefas como concluida.
+**Prioridade**: media
 **Versão**: 1.0
 **Métrica**: Tempo de resposta < 1s para 95% das requisições
 
@@ -94,8 +106,8 @@ O SGT será uma aplicação web responsiva com sincronização em nuvem
 
 |Versão|Data      |Autor  |Modificação   |
 |------|----------|-------|--------------|
-| 1.0  |2026-03-25|Diogotb|Versão Inicial|
-
+| 1.0  |2026-03-25|mirelalisboa|Versão Inicial|
+| 1.1  |2026-04-08|mirelalisboa|adicionada a RF-003|
 ### Rastreabilidade
 
 Gráfico de Rastreabilidade
@@ -109,6 +121,10 @@ graph TD
 
     NS002['NS-002: Organização'] --> RF002['RF-002: Projetos']
     RF002 --> TC002['TC-002: Teste Projetos']
+
+    NS001['NS-001: necessidades steakeholder'] --> RF001 ['RF-003: tarefa conluida'] 
+    RF003 --> TC003 ['TC-003: teste de terefa']
+    
 
 ```
 
