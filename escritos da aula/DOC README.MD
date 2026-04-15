@@ -4,17 +4,18 @@
 ### versao inicial
 
 este documento especifica os requisitos funcionais e nao funcionais de um sistema de reserva de quarto:
-com a minima de 24 hrs e a maxima de 6 meses. 
+com a minima de 24 hrs e a maxima de 6 meses.
+com a mudanca da gestao de finacas, os clientes vips podem fazer reservas com ate 1 ano de antecedencia. 
 
 ## VISÃO GERAL 
 ### perspectiva do produto
 
-a perspectiva e que todos possam fazer as suas reservas de quarto, mas com o minimo de 24 hrs e a maxima de 6 meses. 
+a perspectiva e que todos possam fazer as suas reservas de quarto, mas com o minimo de 24 hrs e os vips com a antecedencia de 1 ano 
 
 
 
 ## REQUISITOS ESPECIFICOS 
-que o minimo de horas pra reserva e de 24hrs e o maximo que pode e 6 meses 
+que o minimo de horas pra reserva e de 24hrs e o maximo que pode e de 1 ano, ams so para os vips 
 
 
 
@@ -23,18 +24,18 @@ RF-010
 
 
 
-**DESCRICAO**:o sistema funciona com reservas com no minimo de 24hrs e a maxima de 6 meses. 
+**DESCRICAO**:o sistema funciona com reservas com no minimo de 24hrs e a maxima de 1 ano para os vips
 
 **PRIORIDADE**: alta 
 
-**VERSAO** 1.0
+**VERSAO** 1.1
 
-**DATA** 2026-01-15
+**DATA** 2026-2-15
 
 **CRITERIOS DE ACEITACAO**
 
 - [] o usuario pode fazer reversas com ate no minimo de 24hrs
-- [] a maxima para reservas e de 6 meses de antecedencia. 
+- [] a maxima para reservas para os vips e de 1 ano. 
 
 
 
@@ -44,13 +45,16 @@ RF-010
 |versao|data     |autor  | modificaçao  | 
 |------|---------|-------|--------------|
 | 1.0 |2026-01-15|mirelalisboa|versao inicial|
+| 1.1 |2026-02-15|mirelalisboa|modificaco um| 
+
+
 
 
 
 ## 5 IMPACTOS PARA COM AS RESERVAS
-aqueles que precisam de uma reserva de ultima hora, mas nao soube o horario, nao podera reservar la, pois o minimo e de 24 hrs para a reserva
+aqueles que precisam de uma reserva de ultima hora, mas nao soube o horario, nao podera reservar la, pois o minimo e de 24 hrs para a reserva, mais agora para os vips, podem se programar para com ate 1 ano de antecedencia.
 ## 5.1 conclusao: 
-reservamos quartos com a minima de 24hrs e maxima de 6 meses. 
+reservamos quartos com a minima de 24hrs e maxima de 1 ano para os vips. 
 
 
 
